@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 31-Out-2018 às 13:16
+-- Generation Time: 07-Nov-2018 às 11:48
 -- Versão do servidor: 10.1.34-MariaDB
 -- PHP Version: 7.2.7
 
@@ -40,7 +40,7 @@ CREATE TABLE `categoria` (
 
 INSERT INTO `categoria` (`id`, `nome`, `descricao`) VALUES
 (1, 'Futebol', 'Tudo sobre o mundo da bola'),
-(2, 'FÃ³rmula 1', 'Tudo sobre o mundo da F1');
+(2, 'Carros', 'Tudo sobre o mundo automobilÃ­stico');
 
 -- --------------------------------------------------------
 
@@ -64,7 +64,7 @@ CREATE TABLE `post` (
 INSERT INTO `post` (`id`, `titulo`, `texto`, `id_categoria`, `autor`, `dt_criacao`) VALUES
 (1, 'CR7 Ã© expulso pela Liga dos CampeÃµes!', 'Craque portuguÃªs Ã© expulso no jogo contra o Valencia. Apesar da expulsÃ£o, Veccia Signora vence por 2 x 0 com dois gols de Pjanic.', 1, 'L. Martins', '0000-00-00 00:00:00'),
 (2, 'Internazionale bate o Milan pela Seria A TIM!', 'Com gol de Icardi nos acrÃ©scimos, Nerazzurris vencem rival Rossonero por 1 x 0.', 1, 'L. Martins', '0000-00-00 00:00:00'),
-(3, 'Lewis Hamilton pentacampeÃ£o mundial!', 'InglÃªs vence o alemÃ£o Sebastian Vettel e se iguala a Fangio!', 2, 'L. Martins', '0000-00-00 00:00:00');
+(3, 'Lewis Hamilton pentacampeÃ£o mundial!', 'InglÃªs vence o alemÃ£o Sebastian Vettel e se iguala a marca de Fangio!', 2, 'L. Martins', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
